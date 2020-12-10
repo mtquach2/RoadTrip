@@ -56,7 +56,7 @@ public class RoadTrip {
                 finalPath.remove(i--);
             }
         }
-        
+        System.out.println("-----Route-----");
         for (int i = 0; i < finalPath.size(); i++) {
             System.out.println(finalPath.get(i));
         }
