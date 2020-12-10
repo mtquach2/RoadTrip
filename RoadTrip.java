@@ -35,16 +35,16 @@ public class RoadTrip {
         System.out.println("Enter the city you want to start with (ie San Francisco CA): ");
         String start = scan.nextLine();
 
-        System.out.println("Enter the city you want to end with: ");
+        System.out.println("Enter the city you want to end with (ie San Francisco CA): ");
         String end = scan.nextLine();
 
-        System.out.println("Enter the amount of attractions you want to visit: ");
+        System.out.println("Enter the amount of attractions you want to visit (Can be 0 or more): ");
         int num = scan.nextInt();
         scan.nextLine();
 
         
         for (int i = 0; i < num; i++) {
-           System.out.println("Enter attraction " + (i+1));
+           System.out.println("Enter attraction " + (i+1) + "'s name (ie Statue of Liberty): ");
            attractions.add(scan.nextLine());
         }
         scan.close();
