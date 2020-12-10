@@ -8,4 +8,4 @@ PURPOSE OF PROJECT: Learn to implement Dijkstra's Algorithm and how to find the 
 
 OUTSIDE SOURCES / HELP: Professor Brizan, Teresa Mei, Yordanos Solomon
 
-MESSAGE FOR TA GRADER: Space sensitive for inputting cities and attractions. Make sure to put in values as stated. 
+MESSAGE FOR TA GRADER: Space and case sensitive for inputing cities and attractions. Make sure to put in values as stated. Does not check if inputs are valid. 
